@@ -1,0 +1,23 @@
+
+body {
+    width: 400px;
+}
+
+#myChart {
+    grid-area: chart1;
+}
+#myChart2 {
+    grid-area: chart2;
+}
+#myChart3 {
+    grid-area: chart3;
+}
+
+
+.container {
+    display:grid;
+    margin-top: 30px;
+    grid-template-columns: 0.5fr 1fr 0.25fr;
+    grid-template-areas: 'chart1 chart2 chart3';
+}
+
